@@ -1,0 +1,76 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<h1 id="title">MOVIES SURVEY FORM</h1>
+
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+
+<div id="body">
+
+<form id="survey-form">
+  
+  <label id="name-label" for="name">
+  <p>Name:</p>
+  </label>
+  
+  <input id="name" type="text" placeholder="Enter Your Name" required>
+  
+  
+   <label id="email-label" for="email">
+  <p>Email:</p>
+  </label>
+  
+  <input id="email" type="email" placeholder="Enter Your Email" required>
+  
+   <label id="number-label" for="number">
+  <p>Age:</p>
+  </label>
+  
+  <input id="number" type="number" placeholder="Enter Your Age" min="12" max="50" required>
+  
+  <p>How often do you watch Movies:</p>
+  <select id="dropdown">
+    
+    <option value="default">Nothing</option>
+    <option value="Daily">Daily</option>
+    <option value="Weekly">Weekly</option>
+    <option value="Monthly">Monthly</option>
+    <option value="Yearly once">Yearly once</option>
+   
+    
+  </select>
+  
+  <p>Which Genere Do You Like The Most?</p>
+  
+  <input type="radio" name="genere" value="1">Romantic</input>
+  <br>
+  <input type="radio" name="genere" value="2">Comedy</input>
+  <br>
+ <input type="radio" name="genere" value="3">Drama</input>
+<br>
+ <input type="radio" name="genere" value="4">Science-Fiction</input>
+<br>
+ <input type="radio" name="genere" value="5">Action</input>
+<br>
+ <input type="radio" name="genere" value="6">Documentary</input>
+
+
+
+
+<p>What is important to you in a film?</p>
+<input type="checkbox" name="important" value="1">Storyline</input>
+  <br>
+<input type="checkbox" name="important" value="2">Charecters</input>
+  <br>
+<input type="checkbox" name="important" value="3">Cinematics</input>
+  <br>
+<input type="checkbox" name="important" value="4">Action</input>
+  <br>
+
+
+<textarea id="comment" rows="6" cols="50">Add Your Comment Here</textarea>
+<br>
+<input id="submit" type="submit" value="Submit">
+            
+</form>
+
+</div>
